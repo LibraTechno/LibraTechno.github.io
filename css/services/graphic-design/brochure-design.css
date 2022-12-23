@@ -1,0 +1,31 @@
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+    aspect-ratio: 1.5;
+    width: 100%;
+    background-position: center;
+    border: 1px solid var(--accent-color);
+    border-radius: 1rem;
+}
+
+.img-1 {
+    background-image: url('/assets/services/graphic-design/brochure-design/1.jpg');
+}
+
+.img-2 {
+    background-image: url('/assets/services/graphic-design/brochure-design/2.jpg');
+}
+
+.img-3 {
+    background-image: url('/assets/services/graphic-design/brochure-design/3.jpg');
+}
+
+.img-4 {
+    background-image: url('/assets/services/graphic-design/brochure-design/4.jpg');
+}
+
+.img-5 {
+    background-image: url('/assets/services/graphic-design/brochure-design/5.jpg');
+}
+
+.img-6 {
+    background-image: url('/assets/services/graphic-design/brochure-design/6.jpg');
+}

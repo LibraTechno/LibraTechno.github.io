@@ -1,0 +1,55 @@
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12 {
+    aspect-ratio: 1.5;
+    width: 100%;
+    background-position: center;
+    border: 1px solid var(--accent-color);
+    border-radius: 1rem;
+}
+
+.img-1 {
+    background-image: url('/assets/services/graphic-design/folder-design/1.jpg');
+}
+
+.img-2 {
+    background-image: url('/assets/services/graphic-design/folder-design/2.jpg');
+}
+
+.img-3 {
+    background-image: url('/assets/services/graphic-design/folder-design/3.jpg');
+}
+
+.img-4 {
+    background-image: url('/assets/services/graphic-design/folder-design/4.jpg');
+}
+
+.img-5 {
+    background-image: url('/assets/services/graphic-design/folder-design/5.jpg');
+}
+
+.img-6 {
+    background-image: url('/assets/services/graphic-design/folder-design/6.jpg');
+}
+
+.img-7 {
+    background-image: url('/assets/services/graphic-design/folder-design/7.jpg');
+}
+
+.img-8 {
+    background-image: url('/assets/services/graphic-design/folder-design/8.jpg');
+}
+
+.img-9 {
+    background-image: url('/assets/services/graphic-design/folder-design/9.jpg');
+}
+
+.img-10 {
+    background-image: url('/assets/services/graphic-design/folder-design/10.jpg');
+}
+
+.img-11 {
+    background-image: url('/assets/services/graphic-design/folder-design/11.jpg');
+}
+
+.img-12 {
+    background-image: url('/assets/services/graphic-design/folder-design/12.jpg');
+}
