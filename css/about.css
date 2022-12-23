@@ -1,0 +1,27 @@
+@import url('/css/root.css');
+
+.page {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5.5rem;
+}
+
+.heading {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sub-heading {
+    background-color: var(--accent-color);
+    padding: 0.1rem 0 0.1rem 0.4rem;
+    color: white;
+    border-radius: 0.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .page {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
