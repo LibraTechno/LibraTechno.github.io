@@ -15,7 +15,7 @@ imgCodes = ["FDD0001", "FDD0002", "FDD0003", "FDD0004", "FDD0005", "FDD0006", "F
 
 pageName = "Folder Design";
 pageID = "folder-design";
-modal1str = "<div class=\"modal\" id=\"img";
+modal1str = "<div class=\"modal fade\" id=\"img";
 modal2str = "modal\" tabindex=\"-1\" aria-labelledby=\"img";
 modal3str = "modal\" aria-hidden=\"true\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><h5 class=\"modal-title\" id=\"img";
 modal4str = "modalLabel\">" + pageName + "</h5><button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button></div><div class=\"modal-body\"><img src=\"/assets/services/graphic-design/" + pageID + "/";

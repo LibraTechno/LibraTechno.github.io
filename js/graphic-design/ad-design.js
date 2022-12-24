@@ -15,7 +15,7 @@ imgCodes = ["ADD0001", "ADD0002", "ADD0003", "ADD0004", "ADD0005", "ADD0006", "A
 
 pageName = "Ad Design";
 pageID = "ad-design";
-modal1str = "<div class=\"modal\" id=\"img";
+modal1str = "<div class=\"modal fade\" id=\"img";
 modal2str = "modal\" tabindex=\"-1\" aria-labelledby=\"img";
 modal3str = "modal\" aria-hidden=\"true\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><h5 class=\"modal-title\" id=\"img";
 modal4str = "modalLabel\">" + pageName + "</h5><button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button></div><div class=\"modal-body\"><img src=\"/assets/services/graphic-design/" + pageID + "/";

@@ -4,6 +4,13 @@ function verifyCaptcha(token) {
     recaptcha_response = token;
 }
 
+var emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+var nameValid = false;
+var emailValid = false;
+var phoneValid = false;
+var messageValid = false;
+
 function sendEmail() {
     const name = document.getElementById("formControlInputName").value;
     const email = document.getElementById("formControlInputEmail").value;
@@ -12,24 +19,33 @@ function sendEmail() {
 
     if ((name === '') || (name == null)) {
         document.getElementById("formControlInputName").style.borderColor = "red";
+    } else {
+        nameValid = true;
     }
-    if ((email === '') || (email == null)) {
+    if ((email === '') || (email == null) || (!(emailRegex.test(email)))) {
         document.getElementById("formControlInputEmail").style.borderColor = "red";
+    } else {
+        emailValid = true;
     }
     if ((phone === '') || (phone == null)) {
 
+    } else {
+        phoneValid = true;
     }
     if ((message === '') || (message == null)) {
         document.getElementById("formControlTextareaMessage").style.borderColor = "red";
+    } else {
+        messageValid = true;
     }
     if(recaptcha_response.length == 0) {
         document.getElementById("reCAPTCHA-error").style.display = "inline-block";
     }
 
     if (
-        ((name === '') || (name == null)) ||
-        ((email === '') || (email == null)) ||
-        ((message === '') || (message == null)) ||
+        (nameValid === false) ||
+        (emailValid === false) ||
+        (phoneValid === false) ||
+        (messageValid === false) ||
         (recaptcha_response.length == 0)
     ) {
         return;

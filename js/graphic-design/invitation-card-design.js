@@ -15,7 +15,7 @@ imgCodes = ["IND0001", "IND0002", "IND0003", "IND0004", "IND0005", "IND0006"]
 
 pageName = "Invitation Card Design";
 pageID = "invitation-card-design";
-modal1str = "<div class=\"modal\" id=\"img";
+modal1str = "<div class=\"modal fade\" id=\"img";
 modal2str = "modal\" tabindex=\"-1\" aria-labelledby=\"img";
 modal3str = "modal\" aria-hidden=\"true\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><h5 class=\"modal-title\" id=\"img";
 modal4str = "modalLabel\">" + pageName + "</h5><button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button></div><div class=\"modal-body\"><img src=\"/assets/services/graphic-design/" + pageID + "/";
